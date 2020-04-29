@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact -Smarter Software</title>
+		<!-- Viewport mobile tag for sensible mobile support -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1"
+		/>
+
+		<meta property="og:site_name" content="Smarter Software" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Work Smarter Not Harder" />
+		<meta
+			property="og:image"
+			content="https://www.smartersoftware.io/images/logo.png"
+		/>
+		<meta
+			property="og:description"
+			content="Proprietary software specifically tailored for your business"
+		/>
+
+		<meta
+			name="description"
+			content="Proprietary software specifically tailored for your business"
+		/>
+
+		<meta itemprop="name" content="Smarter Software" />
+		<meta
+			itemprop="description"
+			content="Proprietary software specifically tailored for your business"
+		/>
+		<meta
+			itemprop="image"
+			content="https://www.smartersoftware.io/images/logo.png"
+		/>
+
+		<!--STYLES-->
+		<link rel="stylesheet" href="./css/animate.min.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<!--STYLES END-->
+
+		<script
+			src="https://code.jquery.com/jquery-3.0.0.min.js"
+			integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+			crossorigin="anonymous"
+		></script>
+    </head>
+    
+	<body>
+		<div class="header-alt">
+			<div class="home-navigation">
+				<div class="left padding">
+					<a href="/">
+						<img
+							style="max-width: 80px;"
+							src="./images/transparent_logo_small.png"
+							alt=""
+						/>
+					</a>
+				</div>
+
+				<div class="right">
+					<ul class="links">
+						<a href="/clients">Clients</a>
+						<a href="/about">About</a>
+						<a href="/contact">Contact</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero">
+			<div class="title">
+				Free Consultation
+			</div>
+
+			<div class="subtitle">
+
+			</div>
+		</div>
+
+		<div class="page-body">
+			<form action="/submit_contact" method="POST">
+				<label for="name">Full Name</label>
+				<input name="name" type="text" placeholder="Full Name" required />
+
+				<label for="email">Email</label>
+				<input name="email" type="email" placeholder="Email" required />
+
+				<label for="phone">Phone</label>
+				<input name="phone" type="text" placeholder="Phone Number (optional)" />
+
+				<label for="business">Business</label>
+				<input
+					name="business"
+					type="text"
+					placeholder="Business Name (optional)"
+				/>
+
+				<label for="description">Description</label>
+				<textarea
+					name="description"
+					id=""
+					cols="30"
+					rows="10"
+					placeholder="Please give a brief description of the kind of work you would like done."
+					required
+				></textarea>
+
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+
+		<script src="./js/font.js"></script>
+	</body>
+</html>
